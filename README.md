@@ -8,11 +8,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
@@ -24,15 +19,14 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Django E - Commerce</h3>
+<h3 align="center">Weather Application</h3>
 
   <p align="center">
-    Fully functional ecommerce website with user and guest checkout capabilities.
+    The purpose of this project was to create a Web Application that allows users to query weekly weather data for a small set of Ontario locations.
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://venditti-ecom-demo.herokuapp.com/#/">View Updated Version of the project</a>
     ·
     <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
     ·
