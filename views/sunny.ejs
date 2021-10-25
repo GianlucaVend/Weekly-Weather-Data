@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Looking for all the sunny days in the week for a given location</title>
+</head>
+<body>
+    
+    <%  
+        for(var i = 0; i < weather.length; i++)
+        { 
+            if (weather[i].conditions.toLowerCase() == "sunny")
+            {
+    %>           <%= weather[i].Day   %>        
+    <%      }
+        }
+    %>
+
+
+</body>
+</html>

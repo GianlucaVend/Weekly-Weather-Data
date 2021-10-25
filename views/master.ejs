@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weekly Weather </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <style>
+        table, td, th{
+            border: solid black;
+            border-collapse: collapse;
+            padding: 5px;
+            background-color: lightslategray;
+        }
+        th{
+            background-color: lightskyblue;
+        }
+
+    </style>
+</head>
+<body>
+    <% 
+        for (var city=0; city < weather.length;city++) {
+    %>
+            <table>
+                <tr>
+                    <th>Day of the Week</th>
+                    <th>Conditions</th>
+                    <th>Night</th>
+                    <th>POP</th>
+                    <th>Wind</th>
+                    <th>hrsOfSun</th>
+                    <th>hrsRain</th>
+                    <th>Location</th>
+                    <th>Temp</th>
+                </tr>
+                 <%
+                     for (var index =0; index< weather[city].length;index++) {
+                 %> 
+                     <tr>
+                        <br>
+                         <td><%= weather[city][index].Day %></td>
+                         <td><%= weather[city][index].conditions %></td>
+                         <td><%= weather[city][index].night %></td>
+                         <td><%= weather[city][index].pop %></td>
+                         <td><%= weather[city][index].wind %></td>
+                         <td><%= weather[city][index].hrsOfSun %></td>
+                         <td><%= weather[city][index].hrRain %></td>
+                         <td><%= weather[city][index].location %></td>
+                         <td><%= weather[city][index].temp %></td>
+                     </tr>
+                 <% } %> 
+            </table>
+        <% } %> 
+</body>
+</html>

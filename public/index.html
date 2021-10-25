@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Weather App</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Weather App</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/weather">View Weather for All Locations</a> <br>"</li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Weather App</h1>      
+    <p>The goal of this assignment is to create a Web Application that allows users to query weekly weather data for a small set 
+        of Ontario locations.</p>
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">    
+  <h3>A collection of queries for a given geographical location</h3><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Kingston</p>
+      <a href="/weather/kingston">Kingston Weather</a> <br>
+      <a href="/weather/kingston/monday">Kingston Weather for a given day</a> <br>
+      <a href="/sunny/kingston">Sunny Days</a> <br>
+      <a href="/average/kingston">Average Temp Weekly</a> <br>
+      <a href="/warmestLocation/kingston">Warmest Day of Week</a> <br> 
+      <a href="/warmest/monday">Warmest Location</a> <br>
+    </div>
+    <div class="col-sm-3"> 
+      <p>Ottawa</p>
+      <a href="/weather/ottawa">Ottawa Weather</a> <br>
+      <a href="/weather/ottawa/tuesday">Ottawa Weather for a given day</a> <br>
+      <a href="/sunny/ottawa">Sunny Days</a> <br>
+      <a href="/average/ottawa">Average Temp Weekly</a> <br>
+      <a href="/warmestLocation/ottawa">Warmest Day of Week</a> <br> 
+      <a href="/warmest/tuesday">Warmest Location</a> <br>
+    </div>
+    <div class="col-sm-3"> 
+      <p>Toronto</p>
+      <a href="/weather/toronto">Toronto Weather</a> <br>
+      <a href="/weather/toronto/friday">Toronto Weather for a given day</a> <br>
+      <a href="/sunny/toronto">Sunny Days</a> <br>
+      <a href="/average/toronto">Average Weekly</a> <br>
+      <a href="/warmestLocation/toronto">Warmest Day of Week</a> <br> 
+      <a href="/warmest/sunday">Warmest Location</a> <br>
+    </div>
+    <div class="col-sm-3"> 
+      <p>Master Weather</p>
+      <a href="/weather">Collection of all locations</a> <br>
+     
+    </div>
+  </div>
+</div><br>
+
+
+
+<footer class="container-fluid text-center">
+  <p>Gianluca Venditti &trade;</p>
+</footer>
+
+</body>
+</html>
