@@ -10,8 +10,6 @@
 -->
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -64,9 +62,10 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <p align="right">(<a href="#top">back to top</a>)</p>
 -->
 
-
 ### Built With
-[Django](https://www.djangoproject.com/)
+[JavaScript](https://www.javascript.com/)
+[EJS](https://ejs.co/)
+
 <!--
 * [Next.js](https://nextjs.org/)
 * [React.js](https://reactjs.org/)
@@ -120,28 +119,23 @@ This is an example of how to list things you need to use the software and how to
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-Django x E-commerce website with payment integration and also the ability for users to shop as a guest or a registered user. Users are able to visit the site, shop around add items to carts without ever having to make an account. And then eventually at checkout, you would not need to register. Along with the ability for users to create an account and shop as registered user. The purpose of this project was learning to create a Django project and becoming familiar with core concepts and working with the back-end framework. Over the next few months I will keep adding to this project. The purpose of this project was to learn core features of Django. Following the tutoral by Ivy on youtube, it inspired me to pursue and learn more about Django and the inner workings of the back-end framework. 
+To allow users to query weekly weather data for a small set of Ontario locations.
 
 
 _For more examples, please refer to the [Documentation](https://docs.djangoproject.com/en/3.2/)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- ROADMAP -->
 ## Roadmap
+- Learning how to export data from a module (e.g. module,exports=schdule)
+- As well how to import data from one module into another (e.g. const schedule=require('./schedule.js')
+- Dealing with: Client-side : Sending requests from client to the server and HTML forms
+- Server-side : Sending a web page from the server and handling advanced queries from client
+- Dynamic web pages (templates)
+- Rendering template files with embedded data
+- Embedded JavaScript (EJS)
 
--  Create Templates
--  Views/URL's
--  Static Files
--  Build Models
--  Render Cart data
--  Checkout page data
--  Add/Upadate cart event handlers
--  Render cart total
--  Checkout Form Data
--  Process Order
 
 <!--
     - [] Nested Feature
