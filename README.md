@@ -61,7 +61,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://venditti-ecom-demo.herokuapp.com/#/)
+[![Product Name Screen Shot][product-screenshot]]()
 
 
 <!--
@@ -225,4 +225,4 @@ Visit My Portfolio:[Here](https://gianlucavenditti.com/)
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/gianlucavenditti-/
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/weather.png
