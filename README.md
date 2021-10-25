@@ -63,7 +63,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 -->
 
 ### Built With
-[JavaScript](https://www.javascript.com/)
+[JavaScript](https://www.javascript.com/) <br>
 [EJS](https://ejs.co/)
 
 <!--
