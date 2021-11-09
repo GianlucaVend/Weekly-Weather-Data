@@ -9,7 +9,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![LinkedIn][linkedin-shield]][linkedin-url]
-[![Twitter][twitter-shield]][https://twitter.com/GianlucaVend]
+[![Twitter][twitter-shield]][twitter-url]
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -214,4 +214,5 @@ Visit My Portfolio:[Here](https://gianlucavenditti.com/)
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [twitter-shield]: https://img.shields.io/badge/-Twitter-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/gianlucavenditti-/
+[twitter-url]: https://twitter.com/GianlucaVend
 [product-screenshot]: images/weather.png
