@@ -10,6 +10,8 @@
 -->
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Twitter][twitter-shield]][twitter-url]
+[![Instagram][instagram-shield]][insta-url]
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -213,6 +215,8 @@ Visit My Portfolio:[Here](https://gianlucavenditti.com/)
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [twitter-shield]: https://img.shields.io/badge/-twitter-black.svg?style=for-the-badge&logo=Twitter&colorB=555
+[instagram-shield]: https://img.shields.io/badge/-instagram-black.svg?style=for-the-badge&logo=instagram&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/gianlucavenditti-/
 [twitter-url]: https://twitter.com/GianlucaVend
+[insta-url]: https://www.instagram.com/gianlucavend/
 [product-screenshot]: images/weather.png
